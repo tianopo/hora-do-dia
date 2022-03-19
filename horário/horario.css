@@ -1,0 +1,46 @@
+.corpo{
+    display: flex;
+    background: rgb(70, 63, 63);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: .8em 0;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.elemento{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 10em;
+    border: 1px solid white;
+}
+
+.rodape{
+    margin-top: 2em;
+    font-weight: bold;
+    color: white;
+}
